@@ -1,0 +1,49 @@
+@import "style.css";
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
+.logo{
+padding-left:50px;
+}
+#container{
+min-height:500px;
+}
+#recover{
+border:1px solid white;
+margin:80px 500px 0 500px;
+padding:0 20px 0 20px;
+}
+#recover_header{
+width:250px;
+height:75px;
+}
+a:link,a:visited{
+color:white;
+}
+footer{
+color:white;
+}
+::-webkit-input-placeholder {
+font-weight:bold;
+font-style:italic;
+}
+:-moz-placeholder {
+font-weight:bold;
+font-style:italic;
+}
+::-moz-placeholder {
+font-weight:bold;
+font-style:italic;
+}
+:-ms-input-placeholder {
+font-weight:bold;
+font-style:italic;  
+}
+body{
+background-image:url("/snapdrobe/background.jpg");
+background-repeat:no;
+color:white;
+}
